@@ -1,0 +1,96 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  top: 0;
+  left: 0;
+  font-family: monospace;
+  text-align: center;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+#header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  background: #d6d5d4;
+  color: #a16a94;
+}
+
+#board {
+  position: absolute;
+  top: 100px;
+  width: 1020px;
+  margin-left: -510px;
+  left: 50%;
+  height: 800px;
+  background: #f7f7f7;
+}
+
+#topDiv {
+  position: relative;
+  top: 40px;
+  left: 40px;
+  width: 940px;
+  height: 120px;
+  background: #f7f7f7;
+  border: 1px solid #01a0e4;
+}
+
+#leftDiv {
+  position: absolute;
+  width: 300px;
+  height: 700px;
+  top: 10px;
+  left: 40px;
+  background: #f7f7f7;
+  border: 1px solid #db2d20;
+  text-align: right;
+}
+
+#rightDiv {
+  position: relative;
+  top: 400px;
+  left: 580px;
+  height: 400px;
+  width: 400px;
+  background: #f7f7f7;
+  border: 1px solid #cdab53;
+}
+
+#footer {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 24px;
+  margin-top:-24px;
+  left:0;
+  background: #4a4543;
+}
+
+#footer-text {
+  position: relative;
+  color: #b5e4f4;
+  text-align: right;
+  margin-top: 6px;
+  margin-right: 20px;
+}
+
+#numTable {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+
+#header h1 {
+  margin: 0;
+  padding: 0;
+  color: green;
+  padding-top: 16px;
+}

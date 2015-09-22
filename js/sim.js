@@ -12,5 +12,6 @@ for (t=0; t<=tf; t+=dt) {
   var a = f / m;
   v = v + a * dt;
   x = x + v * dt;
-  console.log(t + " " + x + " " + v + " " + a);
+  if(t%0.5==0)
+    createLine([t, x.toFixed(3), v.toFixed(3), a.toFixed(3)]);
 }
